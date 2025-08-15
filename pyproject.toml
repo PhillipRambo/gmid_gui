@@ -12,7 +12,11 @@ authors = [
 dependencies = [
     "numpy",
     "matplotlib",
-    "ipywidgets"
+    "ipywidgets",
+    "pandas"
 ]
 readme = "README.md"
 license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+include = ["gmid_gui"]

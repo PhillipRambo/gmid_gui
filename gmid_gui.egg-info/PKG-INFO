@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: gmid_gui
+Version: 0.1.0
+Summary: A GM/ID lookup table GUI for MOSFET design
+Author-email: Phillip Ferreira Baade-Pedersen <phillipfbp@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ipywidgets
+Requires-Dist: pandas
