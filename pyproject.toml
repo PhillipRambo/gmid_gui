@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gmid_gui"
+version = "0.1.0"
+description = "A GM/ID lookup table GUI for MOSFET design"
+authors = [
+  { name = "Phillip Ferreira Baade-Pedersen", email = "phillipfbp@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "ipywidgets"
+]
+readme = "README.md"
+license = {text = "MIT"}
